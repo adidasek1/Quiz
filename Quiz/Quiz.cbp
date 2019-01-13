@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="interface.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="pytanie.cpp" />
+		<Unit filename="pytanie.h" />
 		<Unit filename="quiz.cpp" />
 		<Unit filename="quiz.h" />
 		<Extensions>
