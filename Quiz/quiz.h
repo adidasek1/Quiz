@@ -1,19 +1,11 @@
+#ifndef __quiz_h__
+#define __quiz_h__
+
 #include <iostream>
 #include "interface.h"
 
-using namespace std;
+using namespace std; //Dlaczego?? nie powinno sie deklarowac namespace w headerze!!!!
 
-class Pytanie
-{
-public:
-    void Inicjalizuj(string const& tresc, char poprawna_odpowiedz);
-    string const& ZwrocTresc() const;
-    bool CzyPoprawna(char odpowiedz) const;
-
-private:
-    string     tresc_;
-    char       poprawna_odpowiedz_;
-};
 
 //szczegolna implementacja bazyPytan czytajaca pytania z pliku (plik pelni role repozytorium)
 class BazaPytanZPliku : public BazaPytan
@@ -63,3 +55,5 @@ public:
     virtual Pytanie const* PodajPytanie(unsigned int index);
     virtual unsigned int ZwrocIloscWszystkichPytan();
 };
+
+#endif //__quiz_h__

@@ -56,7 +56,7 @@ int main()
                 cout << "Ok. To konczymy zabawe";
                 exit(0);
             default:
-                cout << "Nie poprawny wybor!!! Sprobuj jeszcze raz!" << cout;
+                cout << "Nie poprawny wybor!!! Sprobuj jeszcze raz!" << endl;
                 poziom_gry_wybrany = false;
         }
     }

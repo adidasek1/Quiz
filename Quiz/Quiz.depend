@@ -5,3 +5,30 @@
 	<time.h>
 	<cstdlib>
 
+1547415236 source:/home/pshemoth/Code/Quiz/Quiz/main.cpp
+	<string>
+	<iostream>
+	<time.h>
+	<cstdlib>
+	"interface.h"
+	"quiz.h"
+
+1547413887 /home/pshemoth/Code/Quiz/Quiz/interface.h
+	<iostream>
+	"pytanie.h"
+
+1547413825 /home/pshemoth/Code/Quiz/Quiz/pytanie.h
+	<string>
+
+1547413930 /home/pshemoth/Code/Quiz/Quiz/quiz.h
+	<iostream>
+	"interface.h"
+
+1547415196 source:/home/pshemoth/Code/Quiz/Quiz/pytanie.cpp
+	"pytanie.h"
+
+1547415207 source:/home/pshemoth/Code/Quiz/Quiz/quiz.cpp
+	<iostream>
+	"quiz.h"
+	"interface.h"
+
