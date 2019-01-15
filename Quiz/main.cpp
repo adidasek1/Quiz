@@ -15,8 +15,8 @@ int main()
     string imie;
     cin >> imie;
     cout << "Podaj poziom gry ktory ciebie interesuje:" << endl;
-    cout << "1 - ³atwy" << endl;
-    cout << "2 - œredni" << endl;
+    cout << "1 - Å‚atwy" << endl;
+    cout << "2 - Å›redni" << endl;
     cout << "3 - trudny" << endl;
     cout << "4 - nie chce jednak grac" << endl;
 
