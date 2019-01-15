@@ -3,21 +3,13 @@
 #include <time.h>
 #include <cstdlib>
 #include "interface.h"
-#include "quiz.h"
+#include "baza_pytan_z_pliku.h"
+#include "gra.h"
 using namespace std;
-
-/*
-Deklaracja klas, interfejsow i enumeracji
-*/
-
-
-
 
 int main()
 {
     //Inicjalizacja bazy pytan - uzywamy bazy zapisanej w pliku
-
-
     cout << "Witam w Quiz" << endl;
     cout << "Podaj swoje imie:";
     string imie;
@@ -29,7 +21,7 @@ int main()
     cout << "4 - nie chce jednak grac" << endl;
 
     bool poziom_gry_wybrany = false;
-    BazaPytanZPlikuFake baza_pytan;
+    BazaPytanZPliku baza_pytan;
     unsigned int ilosc_pytan;
     bool status_inicjalizacji;
     do
@@ -41,15 +33,15 @@ int main()
         switch (podany_poziom_gry)
         {
             case 1:
-                status_inicjalizacji = baza_pytan.Inicjalizuj("latwe_pytania.txt");
+                status_inicjalizacji = baza_pytan.Inicjalizuj("latwe.txt");
                 ilosc_pytan = 10;
                 break;
             case 2:
-                status_inicjalizacji = baza_pytan.Inicjalizuj("srednie_pytania.txt");
+                status_inicjalizacji = baza_pytan.Inicjalizuj("srednie.txt");
                 ilosc_pytan = 15;
                 break;
             case 3:
-                status_inicjalizacji = baza_pytan.Inicjalizuj("trudne_pytania.txt");
+                status_inicjalizacji = baza_pytan.Inicjalizuj("trudne.txt");
                 ilosc_pytan = 20;
                 break;
             case 4:

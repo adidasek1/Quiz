@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
-#include "quiz.h"
+#include "gra.h"
 #include "interface.h"
 
 using namespace std;
